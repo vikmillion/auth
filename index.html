@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth</title>
+  </head>
+
+  <body>
+
+      <div class="login-wrap">
+        <h3>Регистрация</h3>
+        <div class="login-form">
+          <form class="signUp">
+            <div class="group">
+              <label for="email" class="label">Электронный адрес</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="input"
+                placeholder="email@email.com"
+                value="email@email.com"
+              />
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Пароль</label>
+              <input
+                id="pass"
+                name="password"
+                type="password"
+                class="input"
+                data-type="password"
+                minlength="6"
+                value="111111"
+              />
+            </div>
+            <div class="group">
+              <button class="auth">Зарегистрироваться</button>
+            </div>
+            <div class="hr"></div>
+            <output class="error-message"></output>
+          </form>
+        </div>
+      </div>
+  </body>
+</html>
